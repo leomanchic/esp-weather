@@ -33,8 +33,8 @@ use ssd1306::{prelude::*, I2CDisplayInterface, Ssd1306};
 
 use log::{error, info};
 
-const SSID: &str = "EVA";
-const PASSWORD: &str = "GALA2015";
+const SSID: &str = "";
+const PASSWORD: &str = "";
 
 fn main() -> anyhow::Result<()> {
     esp_idf_svc::sys::link_patches();
